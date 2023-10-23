@@ -1,0 +1,94 @@
+.logInForm {
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.label {
+  font-weight: 300;
+  font-size: 20px;
+  color: gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.emailInput,
+.passwordInput {
+  height: 52px;
+  border: 1px solid #ced4da;
+  width: 60%;
+  padding: 6px 12px;
+}
+
+.emailInput,
+.passwordInput::placeholder {
+  font-size: 18px;
+  color: gray;
+  font-weight: 300;
+}
+
+.errorMessage {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}
+
+.checkboxWrapper {
+  margin-top: 1rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.checkForm {
+  width: auto;
+  padding: 0;
+
+  input {
+    display: block;
+    margin-top: 1rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid gray;
+  }
+
+  input:active,
+  :hover,
+  :focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0);
+  }
+}
+
+.checkLabel {
+  width: auto;
+  font-size: 25px;
+  color: gray;
+  font-weight: 300;
+}
+
+.enter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.passwordForgot {
+  color: #ffa45c;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.buttonWrapper {
+  width: 25%;
+}

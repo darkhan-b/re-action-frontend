@@ -1,0 +1,66 @@
+.signUpForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.label {
+  font-weight: 300;
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.emailInput,
+.passwordInput {
+  height: 52px;
+  border: 1px solid #ced4da;
+  width: 60%;
+  padding: 6px 12px;
+}
+
+.emailInput,
+.passwordInput::placeholder {
+  font-size: 18px;
+  color: gray;
+  font-weight: 300;
+}
+
+.errorMessage {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}
+
+.checkForm {
+  margin-top: 20px;
+  input {
+    width: 12px;
+    height: 12px;
+    border: 1px solid gray;
+  }
+  input:active,
+  :hover,
+  :focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0);
+  }
+}
+
+.buttonWrapper {
+  width: 25%;
+  margin-top: 20px;
+}

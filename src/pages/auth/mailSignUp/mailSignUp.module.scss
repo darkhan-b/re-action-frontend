@@ -1,0 +1,36 @@
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 300;
+  color: #000000;
+  margin-top: 10px;
+}
+
+span {
+  font-size: 15px;
+  font-weight: 300;
+  color: gray;
+  margin: 5px 0 0 0;
+}
+
+.link {
+  color: #ffa45c;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.agreement {
+  max-width: 75%;
+}

@@ -1,0 +1,20 @@
+.logIn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #000000;
+  }
+  span {
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 300;
+    color: gray;
+  }
+}
+
+.buttonWrapper {
+  margin-top: 15px;
+}

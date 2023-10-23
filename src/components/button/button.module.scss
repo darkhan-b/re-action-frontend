@@ -1,0 +1,24 @@
+.buttonEnter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  gap: 10px;
+  border: 1px solid #ff735c;
+  border-radius: 10px;
+  background-color: #ff735c;
+  color: #fff;
+  font-weight: 300;
+}
+
+.buttonEnter:hover {
+  background-color: #fff;
+  color: #ff735c;
+  border: 1px solid #ff735c;
+}
+
+.iconWrapper {
+  width: 25px;
+  height: 25px;
+}
